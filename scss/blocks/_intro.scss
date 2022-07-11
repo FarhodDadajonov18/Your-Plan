@@ -1,0 +1,165 @@
+.intro__header{
+  display: flex;
+   justify-content: space-around;
+  margin-top: 120px;
+  margin-bottom: 70px;
+}
+
+
+
+.intro__inner{
+  max-width: 730px;
+  width: 100%;
+}
+
+
+
+.intro__sidebar{
+  max-width: 255px;
+  width: 100%;
+}
+
+.intro__link{
+  display: block;
+  max-width: 180px;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #83888F;
+transition: 0.5s ease;
+}
+.intro__link:hover{
+  color: #000;
+  font-weight: bold;
+  transition: 0.5s ease;
+}
+
+
+.intro__span{
+  margin-right: 15px;
+}
+
+.intro__head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ margin-left: 20px;
+}
+
+
+
+.intro__title{
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;  
+
+}
+
+.intro__list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+
+.intro__item{
+  max-width: 228px;
+  width: 100%;
+  padding:60px 20px;
+  margin: 0 10px;
+  background: #F4F1EB;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px #000;
+  transition: 0.5s ease;
+  cursor: pointer;
+  display: inline-block;
+  
+}
+.intro__item:hover{
+ background-color:#FDD6BA;
+ transition: 0.5s ease;
+ 
+}
+.first{
+  background-color:#0E8784;
+
+}
+.first:hover{
+  background-color:#0E8784;
+  opacity: 0.9;
+  
+
+}
+
+
+
+.intro__parag{
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+color: #333D4B;
+}
+
+.intro__info{
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.intro__sidebar{
+  margin-top: 50px;
+}
+
+@media (max-width:900px){
+  .intro__sidebar{
+    display: none;
+  }
+}
+
+@media (max-width:660px){
+.intro__list{
+  display: flex; 
+  flex-direction: column;
+}
+.intro__item{
+  margin-bottom: 20px;
+  max-width: 565px;
+  width: 100%;
+}
+
+.intro__parag{
+  font-size: 45px;
+}
+.intro__info{
+  font-size: 26px;
+  line-height: 50px;
+}
+}
+
+@media (max-width:400px){
+  .intro__title{
+    font-size: 35px;
+  }
+  .intro__parag{
+    font-size: 30px;
+  }
+  .intro__info{
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+}
